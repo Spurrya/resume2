@@ -133,6 +133,7 @@ li
   font-size: 12px;
   line-height: 1.3em;
   padding-bottom: 0.6em;
+  line-height: 1.3;
 }
 
 .name-top{
@@ -171,6 +172,11 @@ hr{
   margin-bottom: 10px;
 }
 
+h1{
+  padding-top: 4px;
+  font-size: 44px;
+}
+
 </style>
 </head>
 
@@ -185,7 +191,8 @@ hr{
     <div></div>
     <span class="glyphicon glyphicon-globe" aria-hidden="true"></span><a href="http://www.spurrya.github.io" >  spurrya.github.io/</a><br>
     <i class="fa fa-github-square"></i><a href="https://github.com/Spurrya" >  github.com/spurrya</a><br>
-    <i class="fa fa-code"></i><a href="http://devpost.com/Spurrya">  devpost.com/spurrya</a>
+    <i class="fa fa-code"></i><a href="http://devpost.com/Spurrya">  devpost.com/spurrya</a><br>
+    <i class="fa fa-pencil"></i><a href="http://medium.com/@spurrya">  medium.com/@spurrya</a>
     </div>
   </div>
 
@@ -206,12 +213,14 @@ hr{
     <div class="col-sm-9 col-xs-9 greybackground">
       <div class ="details" >
       <ul>
+        <li>
+          Developed on a multi-tenant applicant in .NET, and, used concepts such as Dependency Injection (IoC), implemented SQL Procedures, and, performed Data Integration using SQL Server Integration Services.
+        </li>
         <li style="font-size:12.5px;">
-          Implemented MailMerge for the milk producers of Dairy Farmers of Ontario based on their application status.
-          <!-- Developed features for Dairy Farmers of Ontario such as, dynamically populating email templates based on the application status of producer. -->
+          Implemented MailMerge to generate custom letter templates to customers based on their application status.
         </li>
         <li>
-          stuff here
+          Blog: <a href="https://medium.com/@Spurrya/the-10-things-i-learned-in-10-weeks-9190cb8a8c25#.6rzty3ssp">10 things I learned in 10 weeks</a> at BDO.
         </li>
       </ul>
       </div>
@@ -228,16 +237,13 @@ hr{
       <div class ="details">
         <ul>
           <li>
-            Built RESTful APIs using MVC design patterns in C#
-          </li>
-          <li>
-            Designed and implemented scalable MSSQL database schemas
+            Implemented RESTful features using MVC patterns with .NET (C#), Angular (directives and services) and Entity Frameword (ORM)
           </li>
           <li>
             Created Excel add-in in C# to import, parse, and export data
           </li>
           <li>
-            Developed AngularJS directives and services for reuse across multiple pages and components
+           Developed Powershell scripts to merge Excel sheets together
           </li>
         </ul>
         </div>
@@ -287,22 +293,6 @@ hr{
     <div class="heading heading2">RECENT PROJECTS</div><hr>
       <div class="projects">
 
-        <!-- <div class="row jsection three-line">
-          <div class="col-sm-3 col-xs-3" >
-          <span class="company">Lonqa</span><br>
-          <span class="date">March - April 2016</span>
-          </div>
-          <div class="col-sm-9 col-xs-9 greybackground">
-            <div class ="details" >
-              <ul>
-              <li>
-                Enter stuff here
-              </li>
-              </ul>
-            </div>
-          </div>
-        </div> -->
-
       <div class="row jsection three-line">
         <div class="col-sm-3 col-xs-3" >
         <span class="company"><a href="http://devpost.com/software/yofit">Calfit</a></span><br>
@@ -312,10 +302,7 @@ hr{
           <div class ="details" >
             <ul>
             <li>
-              Chrome notifications triggered when an employee deserves a break.
-            </li>
-            <li>
-               Used Node,Google Cloud Messaging, and chrome extension.
+              Notifications triggered using Node.js ,Express APIs, and delivered using Google Cloud Messaging when an employee deserves a break.
             </li>
             <li>
               Deployed it on Microsoft Azure and, created the <a href="http://devpost.com/software/yofit">promotional video</a>.
@@ -432,7 +419,7 @@ hr{
                 Used frequency analysis to transcribe classical piano pieces into sheet music using MATLAB.
               </li>
               <li>
-                Resynthesised the notes clip and used statistical methods to determine accuracy.
+                Resynthesised the notes clip and used statistics to determine accuracy.
               </li>
             </ul>
           </div>
@@ -445,7 +432,7 @@ hr{
     <div class="heading heading2" >SKILLS</div><hr>
     <div class="skills" style="padding-bottom:2px">
       <p><h5><b>Languages:</b></h5> Java, C#, C++, C, Python, MATLAB, PHP</p>
-      <p><h5><b>Frameworks:</b></h5>jQuery, Angular, Node.js, Express, React</p>
+      <p><h5><b>Frameworks:</b></h5>Microsoft .NET, jQuery, Angular, Node.js, Express, React</p>
       <p><h5><b>Testing:</b></h5> Chai, Mocha, Selenium</p>
       <p><h5><b>Database:</b></h5>MySQL MongoDb MSSQL</p>
       <p><h5><b>Other:</b></h5>Powershell, Azure, Bluemix, Watson</p>
@@ -456,7 +443,7 @@ hr{
     </div>
     <div class="heading heading2">LEADERSHIP</div><hr>
     <div class="skills">
-    <p><h5><b>Presentor at BDO</b></h5>Informed 30+ audience on neural networks, deep machine learning and advanced machine learning.</p>
+    <p><h5><b>Presentor at BDO</b></h5>Informed large professional audience on neural networks, deep machine learning and advanced machine learning.</p>
     <p><h5><b> Networking Director</b></h5> Led the organization and marketing of a student-alumni networking event, boosting attendance by 250%.</p>
     <p><h5><b>MATLAB &amp; PCB Design Director</b></h5>Introduced introductory level usage,applications and, best practices to a group of students.</p>
 
@@ -464,8 +451,9 @@ hr{
     </div>
     <hr>
     <br>
-    <div>Click on the hyperlinks to learn more. <br>For more information, please visit my <a href="http://spurrya.github.io">website </a>.</div>
-  </div>
+    <div>Click on the hyperlinks to learn more. <br>For more information, please visit my <a href="http://spurrya.github.io">website.</a>.
+      <!-- <br><i class="fa fa-envelope"></i>: <a href="mailto:spurrya@gmail.com">spurrya@gmail.com</a> -->
+    </div>
   </div>
 </div>
 
