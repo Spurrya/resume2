@@ -46,6 +46,8 @@ h5{
 .heading2{
   font-size: 18px;
   font-weight: bold;
+  margin-top: 7px;
+  margin-bottom: 2px;
 }
 
 
@@ -120,7 +122,6 @@ li
 
 }
 
-
 .name-top{
      margin-top: 20px;
      margin-bottom:10;
@@ -153,9 +154,11 @@ hr{
 }
 .main-name{
   padding-bottom: 10px;
-  border-bottom: 1px solid #E6E6E6;
   margin-bottom: 10px;
+  border-bottom: 1px solid #e6e6e6;
+
 }
+
 
 h1{
   padding-top: 4px;
